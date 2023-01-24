@@ -7,6 +7,9 @@
     height: 100%;
     background: -webkit-linear-gradient(90deg, #ffffff,#80c5ff);
     background: linear-gradient(90deg, #ffffff,#80c5ff);
+    @media (max-width: 750px) {
+        height: auto;
+     }
     &__img {
         width: 15rem;
     }

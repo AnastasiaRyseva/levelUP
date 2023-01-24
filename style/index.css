@@ -347,6 +347,11 @@ img {
   background: -webkit-linear-gradient(90deg, #ffffff, #80c5ff);
   background: linear-gradient(90deg, #ffffff, #80c5ff);
 }
+@media (max-width: 750px) {
+  .callback {
+    height: auto;
+  }
+}
 .callback__img {
   width: 15rem;
 }
