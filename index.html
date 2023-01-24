@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/index.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__container">
+        <video autoplay muted loop class="header__video" id="bgVideo">
+            <source src="video/manWolking.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          
+          <div class="header__content">
+            <h1 class="header__title">LevelUp</h1>
+            <div class="header__advantage">
+                <div>
+                    <img src="./img/prod.png" alt="product photo" class="header__img">
+                </div>
+                <div>
+                    <ul class="header__list">
+                        <li class="header__list-item">Эффективный</li>
+                        <li class="header__list-item">Безопасный</li>
+                        <li class="header__list-item">Доступный</li>
+                    </ul>
+                    <button type="button" class="header__btn forCall">Заказать звонок</button>
+                </div>
+            </div>
+            <button id="myBtn" onclick="pauseVideo()">Pause</button>
+        </div>
+    </div>
+</header> 
+<section class="compound">
+    <div>
+        <div class="compound__item">
+            <img src="./img/washington.svg" alt="pic" class="compound__item_img">
+            <p class="compound__item_text">Силденафил (Sildenafil)</p>
+        </div>
+        <div class="compound__item">
+            <img src="./img/washington.svg" alt="pic" class="compound__item_img">
+            <p class="compound__item_text">Силденафил (Sildenafil)</p>
+        </div>
+        <div class="compound__item">
+            <img src="./img/washington.svg" alt="pic" class="compound__item_img">
+            <p class="compound__item_text">Силденафил (Sildenafil)</p>
+        </div>
+    </div>
+    <div class="compound__offer">
+        <img src="./img/prod.png" alt="product photo">
+        <button type="button" class="compound__offer_btn forCall">Заказать звонок</button>
+    </div>
+    <div>
+        <div class="compound__item">
+            <img src="./img/girlonthephone.svg" alt="girl on the phone" width="100px">
+            <p class="compound__item_text">Силденафил (Sildenafil)</p>
+        </div>
+        <div class="compound__item">
+            <img src="./img/girlonthephone.svg" alt="girl on the phone" width="100px">
+            <p class="compound__item_text">Силденафил (Sildenafil)</p>
+        </div>
+        <div class="compound__item">
+            <img src="./img/girlonthephone.svg" alt="girl on the phone" width="100px">
+            <p class="compound__item_text">Силденафил (Sildenafil)</p>
+        </div>
+    </div>
+</section>
+<section class="review">
+    <div class="swiper review-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="review__slide">
+                    <div class="review__person">
+                        <img src="./img/face1.png">
+                        <div class="review__person-name">
+                            <p>Антон</p>
+                            <p>15 марта 2022</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        Начал прием три дня назад, уже на второй день ощущается прилив сил, повышение работоспособности. Пока не было возможности проверить себя "в деле".
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="review__slide">
+                    <div class="review__person">
+                        <img src="./img/face2.png">
+                        <div class="review__person-name">
+                            <p>Антон</p>
+                            <p>15 марта 2022</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        Действенный и качественный препарат, действие наступает через 4 дня от начала приёма.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="review__slide">
+                    <div class="review__person">
+                        <img src="./img/face1.png">
+                        <div class="review__person-name">
+                            <p>Антон</p>
+                            <p>15 марта 2022</p>
+                        </div>
+                    </div>
+                    <p class="review__text">
+                        Начал прием три дня назад, уже на второй день ощущается прилив сил, повышение работоспособности. Пока не было возможности проверить себя "в деле". Действенный и качественный препарат, действие наступает через 4 дня от начала приёма.
+                    </p>
+                </div>
+            </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="swiper-click">
+        <div class="swiper-right">
+            <div class="prev2">Назад</div>
+            <div class="next2">Далее</div>
+            <img class="next2" src="img/Arr.svg" alt="arrow">
+        </div>
+    </div>
+</section>
+<section class="promo">
+    <div class="promo__description">
+        <div class="promo__description_img">
+            <img src="./img/doctor.png" alt="doctor">
+        </div>
+        <div class="promo__description_text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, esse magni voluptates adipisci, dolores totam fuga reprehenderit natus eveniet beatae quaerat ipsa. Labore rem magni, cum non debitis eveniet explicabo.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis eveniet laborum. Quas itaque fuga non. Tenetur obcaecati, nisi repellat iste sint, provident at, modi esse autem excepturi delectus ex?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, odit. Doloribus, non. Nesciunt rem fugit ea sapiente, qui odit alias doloremque odio esse saepe quam enim cupiditate ipsum voluptatibus blanditiis?
+        </div>
+    </div>
+    <div class="promo__characteristic">
+        <ul class="promo__list">
+            <li class="promo__list_item">Здоровье</li>
+            <li class="promo__list_item">Активность</li>
+            <li class="promo__list_item">Безопасность...Вместе с LevelUp</li>
+        </ul>
+        <button type="button" class="compound__offer_btn forCall">Заказать звонок</button>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
