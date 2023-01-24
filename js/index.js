@@ -25,7 +25,7 @@ new Swiper('.review-swiper', {
   }
 });
 
-//ТАЙМЕР
+//таймер
 let sec = 1800;
 let countDiv = document.getElementById("mv_timer");
 let countDown = setInterval(function () {
@@ -51,8 +51,7 @@ function secpass() {
     }
 }
 
-// скролл к форме обратного звонка
-
+//скролл к форме обратного звонка
 const forCall = document.querySelectorAll('.forCall');
 const callForm = document.querySelector('.callback');
 
