@@ -55,12 +55,8 @@
         }
     }
     &__btn {
-        background-color: transparent;
+        @include btn();
         padding: 1.8rem 5rem;
-        color: #ffffff;
-        font-size: 1.6rem;
-        border: 1px solid black;
-        border-radius: 2.3rem;
         margin-top: 3rem;
         &:hover {
             color: black;

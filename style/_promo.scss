@@ -36,4 +36,12 @@
             margin-left: .7rem;
         }
     }
+    &__btn {
+        @include btn($color: black);
+        padding: 1.8rem 5rem;
+        margin: 2rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }

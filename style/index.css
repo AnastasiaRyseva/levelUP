@@ -107,11 +107,11 @@ img {
 }
 .header__btn {
   background-color: transparent;
-  padding: 1.8rem 5rem;
   color: #ffffff;
   font-size: 1.6rem;
   border: 1px solid black;
   border-radius: 2.3rem;
+  padding: 1.8rem 5rem;
   margin-top: 3rem;
 }
 .header__btn:hover {
@@ -151,15 +151,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 12rem;
   height: 100vh;
   background: linear-gradient(90deg, #b9deed, #efefef);
+  padding-top: 5rem;
 }
 @media (max-width: 930px) {
   .compound {
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 0;
+    gap: 1rem;
+    height: auto;
   }
 }
 .compound__item {
@@ -208,11 +209,11 @@ img {
 }
 .compound__offer_btn {
   background-color: transparent;
-  padding: 1.8rem 5rem;
   color: black;
   font-size: 1.6rem;
   border: 1px solid black;
   border-radius: 2.3rem;
+  padding: 1.8rem 5rem;
 }
 .compound__offer_btn:hover {
   border: 1px solid white;
@@ -336,4 +337,16 @@ img {
 }
 .promo__list_item {
   margin-left: 0.7rem;
+}
+.promo__btn {
+  background-color: transparent;
+  color: black;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  border-radius: 2.3rem;
+  padding: 1.8rem 5rem;
+  margin: 2rem;
+}
+.promo__btn:hover {
+  cursor: pointer;
 }

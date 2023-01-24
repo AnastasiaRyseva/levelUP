@@ -1,0 +1,7 @@
+@mixin btn($bg-color: transparent, $color: #ffffff, $f-size: 1.6rem) {
+    background-color: $bg-color;
+    color: $color;
+    font-size: $f-size;
+    border: 1px solid black;
+    border-radius: 2.3rem;
+}

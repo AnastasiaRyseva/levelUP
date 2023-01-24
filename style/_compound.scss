@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 12rem;
     height: 100vh;
     background: linear-gradient(90deg, #b9deed, #efefef);
+    padding-top: 5rem;
     @media (max-width: 930px){
         flex-direction: column;
-        flex-wrap: wrap;
-        gap: 0;
+        gap: 1rem;
+        height: auto;
     }
     &__item {
         width: 250px;
@@ -52,12 +53,8 @@
             }
         }
         &_btn {
-            background-color: transparent;
+            @include btn($color: black);
             padding: 1.8rem 5rem;
-            color: black;
-            font-size: 1.6rem;
-            border: 1px solid black;
-            border-radius: 2.3rem;
             &:hover {
                 border: 1px solid white;
                 cursor: pointer;
