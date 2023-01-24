@@ -34,7 +34,6 @@
                     <button type="button" class="header__btn forCall">Заказать звонок</button>
                 </div>
             </div>
-            <button id="myBtn" onclick="pauseVideo()">Pause</button>
         </div>
     </div>
 </header> 
@@ -149,8 +148,31 @@
         <button type="button" class="promo__btn forCall">Заказать звонок</button>
     </div>
 </section>
-<section>
-    
+<section class="callback">
+    <div class="callback__offer">
+        <h2 class="callback__title">Закажи средство LevelUp сегодня со скидкой</h2>
+        <div class="callback__price">
+            <span class="callback__old-price">5670₽</span>
+            <span class="callback__actual-price">2560₽</span>
+        </div>
+    </div>
+    <img src="./img/prod.png" alt="product" class="callback__img">
+    <span id="mv_timer" class="time_remains"></span>
+    <form>
+        <div class="form">
+          <div class="inputfield">
+            <label for="name" class="label">Ваше имя</label>
+            <input type="text" name="name" id="name" class="input" placeholder="Анастасия" required>
+          </div>
+          <div class="inputfield">
+            <label for="number" class="label">Номер телефона</label>
+            <input type="number" name="number" id="number" class="input" placeholder="+79002221456" required>
+          </div>
+          <div class="inputfield submit">
+            <input type="submit" value="Заказать звонок" class="submitbutton">
+          </div>
+        </div>
+      </form>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/index.js"></script>
